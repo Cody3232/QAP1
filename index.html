@@ -1,0 +1,167 @@
+<!-- Name: Cody Snow 
+Due Date: Thursday, Oct. 3rd
+QAP 1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Automobile Educational Website">
+    <title>Automobile Educational Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Images/AudiLogo.png" alt="Audi Logo" class="logo">
+        <h1><em>Audi R8 Performance</em></h1>
+        <nav>
+            <ul>
+                <li><a href="#performance">Specs</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="divider"></div>
+
+    <main> <!-- Would have liked to work on this section more, I struggled to get the pictures the right size after adding the fig captions to site the pictures-->
+        <section id="performance"> <!-- Wanted to use A tile system that would flip the pictures revealing tech specs but couldn't figure it out-->
+            <div class="performance-grid">
+                <!-- Item 1 (Labled with comments so it would be more readable)-->
+                <div class="performance-item">
+                    <div class="split-container">
+                        <div class="image-side">
+                            <figure>
+                                <img src="Images/AudiR8Brakes.jpg" alt="Audi R8 Brakes">
+                                <p class="image-attribution">Image of Audi R8 Brakes from <a href="https://www.audi.ca">Audi.ca</a>.</p>
+                                <figcaption><a href="https://www.audi.ca"></a></figcaption>
+                            </figure>                            
+                        </div>
+                        <div class="text-side">
+                            <h5>Carbon Ceramic Brakes</h5>
+                            <ul>
+                                <li>Lightweight</li>
+                                <li>Carbon Fibre</li>
+                                <li>Easy Deceleration into corners</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Item 2 -->
+                <div class="performance-item">
+                    <div class="split-container">
+                        <div class="image-side">
+                            <figure>
+                                <img src="Images/AudiR8suspension.jpg" alt="Audi Magnetic Ride">
+                                <p class="image-attribution">Image of Audi R8 Audi Magnetic Ride from <a href="https://www.audi.ca">Audi.ca</a>.</p>
+                                <figcaption><a href="https://www.audi.ca"></a></figcaption>
+                            </figure>
+                        </div>
+                        <div class="text-side">
+                            <h4>Audi Magnetic ride</h4>
+                            <ul>
+                                <li>Adaptive Shocks</li>
+                                <li>Electromagnetic adjustments</li>
+                                <li>Real-Time Optimization</li>
+                                <li>All leads to a smoother ride</li>
+                            </ul>                          
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Item 3 -->
+                <div class="performance-item">
+                    <div class="split-container">
+                        <div class="image-side">
+                            <figure>
+                                <img src="Images/AudiInterior.jpg" alt="Audi R8 Interior">
+                                <p class="image-attribution">Image of Audi R8 Interior from <a href="https://www.audi.ca">Audi.ca</a>.</p>
+                                <figcaption><a href="https://www.audi.ca"></a></figcaption>
+                            </figure>                            
+                        </div>
+                        <div class="text-side">
+                            <h5>Interior</h5>
+                            <ul>
+                                <li>Diamond Quilted Leather</li>
+                                <li>Alcantara Headliner</li>
+                                <li>Bang and Olufsen Soundsystem</li>
+                                <li>Comes with Apple Car Play</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Item 4 -->
+                <div class="performance-item">
+                    <div class="split-container">
+                        <div class="image-side">
+                            <figure>
+                                <img src="Images/R8OnRoad.jpg" alt="Audi R8">
+                                <p class="image-attribution">Image of Audi R8 from <a href="https://www.audi.ca">Audi.ca</a>.</p>
+                                <figcaption><a href="https://www.audi.ca"></a></figcaption>
+                            </figure>
+                        </div>
+                        <div class="text-side">
+                            <h5>Engine</h5>
+                            <ul>
+                                <li>V10</li>
+                                <li>7-Speed Transmission</li>
+                                <li>602 Horsepower</li>
+                                <li>413 lb-ft</li>
+                                <li>0-60MPH in 3.3 Seconds</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <div class="divider"></div>
+
+        <section id="media">
+            <h2>Defining Excellence</h2>
+            <h3>Video</h3>
+            <iframe 
+                width="100%" 
+                height="600px" 
+                src="https://www.youtube.com/embed/KOxbO0EI4MA?si=Dajl89DNKjxNXCcc" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+
+            <h3>Hear it for yourself</h3>
+            <audio controls>
+                <source src="audio/R8Revving.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>If you have any questions, feel free to contact us!<br> Or Visit <a href="https://www.audi.ca">Audi.ca</a></p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fake Audi Website | Literally no Rights Reserved</p>
+    </footer>
+</body>
+</html>

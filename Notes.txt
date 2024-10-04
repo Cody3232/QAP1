@@ -1,0 +1,17 @@
+How many hours did it take you to complete this assessment? (Please keep try to keep track of how many hours you have spent working on each individual part of this assessment as best you can - an estimation is fine; we just want a rough idea.)
+I think overall this may have taken in the 10-12 hour range? Maybe give or take a few hours, there are times when I would breeze through sections, but then get stuck and go into research mode. 
+
+What online resources you have used? (My lectures, YouTube, Stack overflow etc.)
+I mainly used youtube or ChatGPT when trying to figure out new ideas (Tried ot mark them off in comments on my code fortransparency, and to help me for ideas of areas to explore and learn more about),
+I also have dabbled in a few code bootcamps, so things i learned from there helped (camped in question were Codecademy and FreeCodeCamp.org)
+
+Did you need to ask any of your friends in solving the problems. (If yes, please mention name of the friend. They must be amongst your class fellows.)
+I did not
+
+Did you need to ask questions to any of your instructors? If so, how many questions did you ask (or how many help sessions did you require)?
+I did not ask any questions, although I think I should have (See next quesiton)
+
+Rate (subjectively) the difficulty of Making this all! from your own perspective, and whether you feel confident that you can solve a similar but different problem requiring some of the same techniques in the future now that you’ve completed this one.
+I found it somewhat difficult, I did not figure out a good way to incorporate Javascript for example (My thought was to get the images on the site to flip with text on the other side when you hovered over them, but it did not feel right/how i imagined)
+Although I do not feel overly confident in this particular assignment, I did feel more confident in my ability to in the future produce something I can be more proud of! I also ran into an issue where i could not use the images from the stock phot site you posted.
+So i used the pictures from Audi.ca (but did credit them in the site with figcaptions)
